@@ -1,0 +1,19 @@
+{
+    "name": "info2222-website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "controller.py",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "python3 controller.py",
+      "dev": "concurrently \"node-sass -w sass/styles.sass -o static/css\" \"nodemon controller.py\""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "concurrently": "^6.0.0",
+      "node-sass": "^5.0.0",
+      "nodemon": "^2.0.7",
+      "sass": "^1.32.8"
+    }
+  }
